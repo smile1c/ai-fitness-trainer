@@ -66,27 +66,27 @@ class VideoProcessor:
         
         # Exercise names for display
         exercise_names = {
-            'squat': 'Squat / สควอท',
-            'pushup': 'Pushup / วิดพื้น',
-            'plank': 'Plank / แพลงค์',
-            'lunges': 'Lunges / ลันจ์',
-            'jumping_jacks': 'Jumping Jacks / กระโดดแจ็ค',
-            'situp': 'Situp / ซิทอัพ',
-            'high_knees': 'High Knees / ยกเข่าสูง',
-            'running': 'Running / วิ่งหน้าที่',
-            'walking': 'Walking / เดิน',
-            'burpees': 'Burpees / เบอร์ปี้',
-            'mountain_climbers': 'Mountain Climbers / ปีนเขา',
-            'side_plank': 'Side Plank / แพลงค์ข้าง',
-            'crunches': 'Crunches / ครันช์',
-            'leg_raises': 'Leg Raises / ยกขา',
-            'bicycle_crunches': 'Bicycle Crunches / ปั่นจักรยาน',
-            'standing_knee_raises': 'Knee Raises / ยกเข่ายืน',
-            'wall_sit': 'Wall Sit / นั่งพิงกำแพง',
-            'glute_bridge': 'Glute Bridge / ยกสะโพก',
-            'jumping': 'Jumping / กระโดด',
-            'star_jumps': 'Star Jumps / กระโดดดาว',
-            'squat_jumps': 'Squat Jumps / สควอทกระโดด'
+            'squat': 'Squat  ',
+            'pushup': 'Pushup ',
+            'plank': 'Plank',
+            'lunges': 'Lunges ',
+            'jumping_jacks': 'Jumping Jacks ',
+            'situp': 'Situp ',
+            'high_knees': 'High Knees ',
+            'running': 'Running ',
+            'walking': 'Walking ',
+            'burpees': 'Burpees ',
+            'mountain_climbers': 'Mountain Climbers ',
+            'side_plank': 'Side Plank ',
+            'crunches': 'Crunches ',
+            'leg_raises': 'Leg Raises ',
+            'bicycle_crunches': 'Bicycle Crunches ',
+            'standing_knee_raises': 'Knee Raises ',
+            'wall_sit': 'Wall Sit ',
+            'glute_bridge': 'Glute Bridge ',
+            'jumping': 'Jumping ',
+            'star_jumps': 'Star Jumps ',
+            'squat_jumps': 'Squat Jumps '
         }
         
         selected_exercise = exercise_names.get(exercise_analyzer.exercise_type, exercise_analyzer.exercise_type)
